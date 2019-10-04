@@ -1,11 +1,11 @@
 public enum ItemType {
-  AU("Audio", "AU"),
-  VI("Visual","VI"),
-  AM("AudioMobile", "AM"),
-  VM("VisualMobile", "VM");
+  AUDIO("Audio", "AU"),
+  VISUAL("Visual","VI"),
+  AUDIO_MOBILE("AudioMobile", "AM"),
+  VISUAL_MOBILE("VisualMobile", "VM");
 
-  private final String type;
-  private final String code;
+  public final String type;
+  public final String code;
 
   ItemType(String type, String code){
     this.type = type;

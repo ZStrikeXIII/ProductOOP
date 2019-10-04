@@ -8,31 +8,31 @@ public abstract class Product implements Item {
   String name;
 
   public int getInt() {
-    return id;
+    return this.id;
   }
 
   ;
 
   public void setName(String n) {
-
+    this.name = n;
   }
 
   ;
 
   public String getName() {
-    return name;
+    return this.name;
   }
 
   ;
 
   public void setManufacturer(String m) {
-
+    this.manufacturer = m;
   }
 
   ;
 
   public String getManufacturer() {
-    return manufacturer;
+    return this.manufacturer;
   }
 
   ;

@@ -8,7 +8,7 @@ public interface Item {
 
   public String getName();
 
-  public void setManufacturer(String manufacturer);
+  public void setManufacturer(String m);
 
   public String getManufacturer();
 }
